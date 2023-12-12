@@ -1,4 +1,4 @@
-set-option -g status-position "bottom"
+set-option -g status-position top
 set-option -g status-style bg=default,fg=default
 set-option -g status-justify centre
 set-option -g status-left '#[bg=default,fg=default,bold]#{?client_prefix,,  tmux  }#[bg=#698DDA,fg=black,bold]#{?client_prefix,  tmux  ,}'
